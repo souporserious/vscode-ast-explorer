@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": { "*": ["types/*"] },
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es6",
+    "outDir": "out",
+    "lib": ["es6", "dom"],
+    "jsx": "react",
+    "sourceMap": true,
+    "rootDir": "..",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "typeRoots": ["./types", "../../node_modules/@types"]
+  },
+  "exclude": ["types", "node_modules"]
+}
